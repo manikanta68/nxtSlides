@@ -1,0 +1,130 @@
+.nxtSlidesContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f8fafc;
+}
+.navbar {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #dbeafe;
+}
+.navImage {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.displayContainer {
+  display: flex;
+}
+
+.sideNavbar {
+  width: 20%;
+
+  height: 90vh;
+}
+
+.plusIcon {
+  height: 10px;
+  width: 10px;
+  margin-right: 3px;
+}
+
+.newButton {
+  background-color: #dbeafe;
+  padding: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.cardsListContainer {
+  list-style-type: none;
+  overflow-y: scroll;
+  height: 80vh;
+  padding-left: 80px;
+  padding-top: 4px;
+}
+
+.listItem {
+  display: flex;
+  align-items: flex-start;
+}
+
+.eachCard {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png');
+  background-size: cover;
+  height: 100px;
+  width: 200px;
+  box-shadow: 3px 3px 7px 1px #dbeafe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  margin-left: 9px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  margin: 2px;
+  font-size: 20px;
+  color: #0967d2;
+}
+.description {
+  font-family: 'Roboto';
+  margin: 0px;
+  font-size: 14px;
+}
+
+.slideDisplayContainer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.slideDisplay {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png');
+  background-size: cover;
+  height: 400px;
+  width: 500px;
+  box-shadow: 3px 3px 7px 1px #dbeafe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.CardHeading {
+  font-family: 'Roboto';
+  margin: 2px;
+  font-size: 38px;
+  color: #0967d2;
+}
+.cardDescription {
+  font-family: 'Roboto';
+
+  font-size: 24px;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.input {
+  margin-bottom: 14px;
+  padding: 9px;
+  border: none;
+  outline: none;
+}
